@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #da2121;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color:chocolate;
+    font-weight: bold;
+}
+
+.page {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.progress-container {
+    margin-top: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+#progress-fill {
+    height: 100%;
+    background-color:chocolate;
+    transition: width 0.5s;
+}

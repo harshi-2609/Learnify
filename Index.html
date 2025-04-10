@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <meta name="author" content="Nuthalapati Harshitha">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav>
+        <a href="#" onclick="showPage('home')">Home</a>
+        <a href="#" onclick="showPage('course')">Course</a>
+    </nav>
+
+    <div id="home" class="page">
+        <h1>Welcome to the E-Learning Platform</h1>
+        <p>Browse courses and track your progress.</p>
+    </div>
+
+    <div id="course" class="page hidden">
+        <h1>Course Title</h1>
+        <p>Introduction to Web Development</p>
+        <div class="progress-container">
+            <p>Progress: <span id="progress-text">40%</span></p>
+            <div class="progress-bar">
+                <div id="progress-fill" style="width: 40%;"></div>
+            </div>
+        </div>
+        <h2>Course Video</h2>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+    </div>
+    
+    <script src="Script.js"></script>
+</body>
+</html>
